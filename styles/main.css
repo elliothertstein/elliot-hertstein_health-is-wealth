@@ -1,0 +1,9 @@
+html {
+  background-color: black;
+}
+
+main {
+  height: 1080px;
+  width: 1920px;
+  background-color: rgb(226, 226, 226);
+}
