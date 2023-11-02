@@ -1,9 +1,119 @@
 html {
-  background-color: black;
+  width: 1920;
+  height: 1080;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 main {
-  height: 1080px;
-  width: 1920px;
-  background-color: rgb(226, 226, 226);
+  margin: auto auto;
+}
+
+/* BACKGROUND ANIMATION */
+
+body {
+  background: linear-gradient(-45deg, #ffeded, #ffe9e9, #e2f7ff, #ebf9ff)
+    no-repeat;
+  background-size: 350% 350%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-repeat: repeat;
+  animation: gradient 7s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* /////////////// */
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+* {
+  box-sizing: content-box;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.logo {
+  display: block;
+  margin: auto auto;
+}
+
+h1 {
+  font-size: 200px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+button {
+  background-color: rgb(255, 255, 255);
+}
+
+.tiles {
+  align-content: center;
+  border-radius: 30px;
+  width: 450px;
+  height: 700px;
+  margin: 7px;
+}
+
+.otherbtns {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  justify-content: right;
+  margin: auto auto;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.settings {
+  width: 70px;
+  height: 70px;
+  justify-self: right;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.other {
+  align-items: center;
+}
+
+video {
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.animatedlogo {
+  width: 70px;
+  height: 40px;
 }

@@ -1,48 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Health is Wealth</title>
     <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- LOGO ANIMATION -->
+    <!-- <video class="animatedlogo" autoplay muted loop id="bgvideo">
+      <source src="./images/intro.mp4" />
+    </video> -->
   </head>
+
   <body>
-    <main>
-      <div class="header"></div>
-
-      <!-- Exercises -->
-      <div>
-        <button>
-          <h1>Exercises</h1>
-        </button>
-      </div>
-
-      <!-- Programs -->
-      <div>
-        <button>
-          <h1>Programs</h1>
-        </button>
-      </div>
-
-      <!-- Progress -->
-      <div>
-        <button>
-          <h1>Progress</h1>
-        </button>
-      </div>
-
-      <!-- Food for Fuel -->
-      <div>
-        <button>
-          <h1>Food For Fuel</h1>
-        </button>
-      </div>
+    <main class="mainwrapper">
+      <img class="settings" src="./images/settings.png" />
 
       <!-- Log in/ sign up/ settings -->
+      <button class="otherbtns">Sign up</button>
+      <button class="otherbtns">Log in</button>
+
+      <img class="logo" src="./images/logo.png" alt="logo" />
+
       <div>
-        <button>sign up</button>
-        <button>log in</button>
-        <button>settings</button>
+        <h4>#1 online gym company</h4>
+
+        <!-- Exercises -->
+        <button class="tiles">
+          <h2>Exercises</h2>
+          <img src="./images/exercise.png" alt="" />
+        </button>
+
+        <!-- Programs -->
+        <button class="tiles">
+          <h2>Programs</h2>
+          <img src="./images/programs.png" alt="" />
+        </button>
+
+        <!-- Progress -->
+        <button class="tiles">
+          <h2>Progress</h2>
+          <img src="./images/chart.jpg" alt="" />
+        </button>
+
+        <!-- Food for Fuel -->
+        <button class="tiles">
+          <h2>Food For Fuel</h2>
+          <img src="./images/food.png" alt="" />
+        </button>
       </div>
     </main>
   </body>
